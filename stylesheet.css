@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    color:#fc6c85;
+}
+
+html{
+    background: grey;
+}
+
+body {
+    background: #fc6c85;
+
+}
+
+.nav {
+    align-items: center;
+    background: cyan;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    list-style: none;
+    margin: 15px 0px 0px 0px;
+}
+
+section {
+    
+}
+
+h1 {
+    display: flex;
+    float: left;
+}
+
+h2{
+    color:cyan;
+}
+
+p{
+    padding:0;
+    margin: 0;
+    color: cyan;
+}
+
+.points{
+    padding-top: 3em;
+    Padding-right: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    margin:0;
+}
+
+article {
+    Padding-top:6em;
+}
+
+ul{
+    margin:0;
+}
+
+.weeks {
+    Padding: 0em 0em 0em 20em;
+}
+.week1 {
+    margin-top: 10%;
+    padding: 30%;
+}
+
+.week {
+    margin-top: 50px;
+    padding: 30px;
+    align-content: center;
+}
+
+ img {
+    height: 100%;
+    width: 50%;
+    align-content: center;
+  }
+
+ a{
+     text-decoration: none;
+ }
+
+  .icons {
+    height: 25px;
+    width: 50%;
+    margin-top: 2em;
+    margin-left: 24em;
+}
+
+.social_links {
+    margin-top: 10%;
+}
+
+.rights {
+    color: #fc6c85;
+    margin-left: 24em;
+}
+
+footer{
+    background: cyan;
+    height: 15vh;
+}
+
+button {
+    background: cyan;
+    cursor: pointer;
+    display: flex;
+    margin-left: 28em;
+    border-radius: 7.5px;
+
+}
+
