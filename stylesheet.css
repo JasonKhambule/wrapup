@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Shadows Into Light', cursive;
     font-size: 20px;
-    color:#fc6c85;
+    color: grey;
 }
 
 html{
@@ -11,7 +11,7 @@ html{
 }
 
 body {
-    background: #fc6c85;
+    background: grey;
 
 }
 
@@ -31,9 +31,6 @@ body {
     margin: 15px 0px 0px 0px;
 }
 
-section {
-    
-}
 
 h1 {
     display: flex;
@@ -69,13 +66,23 @@ ul{
 .weeks {
     Padding: 0em 0em 0em 20em;
 }
+
+.weekss{
+    Padding: 0em 0em 0em 29em;
+
+}
 .week1 {
     margin-top: 10%;
     padding: 30%;
 }
 
 .week {
-    margin-top: 50px;
+    margin-top: 20px;
+    padding: 30px;
+    align-content: center;
+}
+
+.week_2{
     padding: 30px;
     align-content: center;
 }
@@ -112,11 +119,13 @@ footer{
 }
 
 button {
+    border-width: 1px;
     background: cyan;
     cursor: pointer;
     display: flex;
-    margin-left: 28em;
+    margin-left: 27.5em;
     border-radius: 7.5px;
+    text-align: center;
 
 }
 
